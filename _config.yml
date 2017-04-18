@@ -1,47 +1,36 @@
-# Site settings
-title: 林凡的博客
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Taik is cheap, show me the code.
-baseurl: "" # the subpath of your site, e.g. /newpath-for-emping
-url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-GoogleAnalytics: UA-xxxxxx-x
+# Site configuration
+domain: "http://songroger.win"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://songroger.github.io/" # the base hostname & protocol for your site
+permalink: /:title/
+avatar: http://7xof48.com1.z0.glb.clouddn.com/avatar.jpg
+about: http://7xof48.com1.z0.glb.clouddn.com/about.jpg
+favicon: http://7xof48.com1.z0.glb.clouddn.com/favicon.png
+basecss: 
+# Theme specific configuration
+title: songroger
+description: >
+  Hi there, My name is Luozhan.Song, usually I use "songroger" as my ID everywhere.
+  I was born and raised in Hunan China. 
+  I'm really fond of beautiful design, drawing etc.
 
-twitter:
-  username: rmsubekti
-facebook:
-  app_id: 1234567
-  publisher: 1234567
+# Contact and social media links
+twitter_username: songrogero
+github_username: songroger
+facebook_username: song.roger.1
+instagram_username: songroger198
+linkedin_username: songroger
 
-sass:
-    style: compressed
+exclude: ['node_modules', 'gulpfile.js', 'package.json']
 
-# Build settings
-markdown: kramdown
 kramdown:
-  parse_block_html: true
+  input: GFM
 
-gems:
-  - jekyll-redirect-from
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jemoji
+# If U enable the comment, edit disqus or duoshuo account of "/_layouts/post.html"
+# before deploy your webpage
+enable_comment: false
 
-defaults:
-    - {scope: {type: posts}, values: {layout: post, permalink: '/blog/:title'}}
-
-include:
-  - _pages
-
-exclude:
-  - CNAME
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-
-paginate: 12
-paginate_path: '/blog/:num'
+gems: ['jekyll-paginate']
+# Pagination
+paginate: 5
+paginate_path: /archive/page:num
