@@ -2,7 +2,7 @@
 layout: page
 title:  Blog
 ---
-
+<!--
 <ul>
   {%for post in paginator.posts %}
     <div class="arch-item">
@@ -14,18 +14,35 @@ title:  Blog
     </div>
   {% endfor %}
 </ul>
-
+-->
+ <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p class="description">
+            {% if post.description %}
+                {{ post.description | strip_html | strip_newlines | truncate: 250 }}
+            {% else %}
+                {{ post.content | strip_html | strip_newlines | truncate: 250 }}
+            {% endif %}</p>
+      </li>
+    {% endfor %}
+  </ul>
+<!--
     <nav class="blocks blocks--space">
       <div class="blocks__item">
         {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path }}">Previous</a>{% endif %}
       </div>
-      <!--
-        显示文章的页数
-      -->
+
       <div class="blocks__item">
         {{ paginator.page }} in {{ paginator.total_pages }}
       </div>
+
       <div class="blocks__item">
         {% if paginator.next_page %}<a href="{{ paginator.next_page_path }}">Next</a>{% endif %}
       </div>
     </nav>
+-->
