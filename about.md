@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
 ---
-{{ site.description }}
-![Songroger]({{ site.about }})
+----阅读即旅行，旅行在字里行间；而旅行也是另一种阅读，阅读着人情事故，一山一水。  
+- - -
+

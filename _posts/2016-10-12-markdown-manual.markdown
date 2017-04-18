@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Markdown"
+title:  "Markdown的使用"
 date:   2016-10-12 17:13:17 +0800
 categories: diary
 location: Florence, Italy
-description: love markdown, love plain texts. Enjoy its manual
+description: markdown是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用
 ---
 ---
 Markdown manual

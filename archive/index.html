@@ -10,8 +10,17 @@ title:
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
       <time class="article__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      <p class="description">
+            {% if post.description %}
+                {{ post.description | strip_html | strip_newlines | truncate: 250 }}
+            {% else %}
+                {{ post.content | strip_html | strip_newlines | truncate: 250 }}
+            {% endif %}
+      </p>
+      <!--
       <p class="article__excerpt">{{ post.excerpt | truncate: 160 }}</p>
-      <a href="{{ post.url | prepend: site.baseurl }}" class="article__more">Read more »</a>
+      -->
+      <a href="{{ post.url | prepend: site.baseurl }}" class="article__more">详情»</a>
     </article>
     <!-- / article -->
   {% endfor %}
