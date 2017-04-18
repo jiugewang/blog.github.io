@@ -1,8 +1,8 @@
 # Site settings
-title: Emping
+title: 林凡的博客
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Let's Eat!!.
+  Taik is cheap, show me the code.
 baseurl: "" # the subpath of your site, e.g. /newpath-for-emping
 url: "http://example.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
