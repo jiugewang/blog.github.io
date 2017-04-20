@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+<!--
 <style type="text/css">
 
 .container{position:relative;width:100%;min-height:100%;}
@@ -7,9 +8,17 @@
 .footer{height:25px;position:fixed;bottom:0px;left:0px;right: 0;}
 
 </style>
+-->
 
 {% include head.html %}
+{% include header.html %}
+<body>
+{{ content }}
+</body>
+{% include footer.html %}
 
+
+<!--
 <div class="container">
 {% include header.html %}
 <body>
@@ -17,4 +26,5 @@
 </body>
 {% include footer.html %}
 </div>
+-->
 </html>
