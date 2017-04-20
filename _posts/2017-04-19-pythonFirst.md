@@ -6,6 +6,8 @@ categories: diary
 location: Florence, Italy
 description: 
 ---
+## Python学习
+
 * Python   
  [下载地址](https://www.python.org)
 * PyCharm   
