@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Python－不得不学的编程语言"
+title:  "Python"
 date:   2017-04-19 17:13:17 +0800
 categories: diary
 location: Florence, Italy
-description: 
+description: python学习
 ---
 
 * Python   

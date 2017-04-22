@@ -6,15 +6,27 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 22 Apr 2017 09:48:42 +0800</pubDate>
-    <lastBuildDate>Sat, 22 Apr 2017 09:48:42 +0800</lastBuildDate>
+    <pubDate>Sat, 22 Apr 2017 10:09:44 +0800</pubDate>
+    <lastBuildDate>Sat, 22 Apr 2017 10:09:44 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>不喧哗、自有声</title>
-        <description>&lt;p&gt;最近的生活很规律，上班、跑步、睡觉。朋友圈发的少了，思考的时间也少了。 &lt;br /&gt;
-今天周末起了个大早，出去走了走，回忆了最近的状态，也试着想想如何改变。 &lt;br /&gt;
-鲁迅先生曾经说过“不在沉默中爆发，就在沉默中死亡”，所以要必须从沉默中去寻找&lt;/p&gt;
+        <description>&lt;p&gt;最近的生活很规律，上班、跑步、睡觉。朋友圈发的少了，思考的时间也少了。今天周末起了个大早，出去走了走，回忆了最近的状态，也试着想想如何改变。 &lt;br /&gt;
+鲁迅先生曾经说过“不在沉默中爆发，就在沉默中死亡”，所以要必须从沉默中去寻找突破。 &lt;br /&gt;
+于是乎先定一个小小的目标:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;读12本书&lt;/li&gt;
+    &lt;li&gt;减肥10斤&lt;/li&gt;
+    &lt;li&gt;学习英语1000个单词，能够无障碍读懂英文文档&lt;/li&gt;
+    &lt;li&gt;扎实计算机基础知识：数据结构、算法、编译原理&lt;/li&gt;
+    &lt;li&gt;学习Python&lt;/li&gt;
+    &lt;li&gt;放松心情，更好的去感悟生活，享受人生&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;默默的去进步，成为自己希望的人！&lt;/p&gt;
 </description>
         <pubDate>Sat, 22 Apr 2017 09:24:17 +0800</pubDate>
         <link>http://localhost:4000/vocie/</link>
@@ -26,7 +38,7 @@
       </item>
     
       <item>
-        <title>Python－不得不学的编程语言</title>
+        <title>Python</title>
         <description>&lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Python &lt;br /&gt;
